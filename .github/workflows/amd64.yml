@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'ghcr.io/monlor/xiaoya-alist:latest' #请填写docker镜像名称 多个用英文逗号分开
+        description: 'xiaoyaliu/glue:python' #请填写docker镜像名称 多个用英文逗号分开
         required: true
-        default: 'ghcr.io/monlor/xiaoya-alist:latest'  # 设置默认的 Docker 镜像列表
+        default: 'xiaoyaliu/glue:python'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
