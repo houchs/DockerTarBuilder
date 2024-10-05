@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'emby/embyserver:latest' #请填写docker镜像名称 多个用英文逗号分开
+        description: 'xhofe/alist:latest' #请填写docker镜像名称 多个用英文逗号分开
         required: true
-        default: 'emby/embyserver:latest'  # 设置默认的 Docker 镜像列表
+        default: 'xhofe/alist:latest'  # 设置默认的 Docker 镜像列表
         #xiaoyaliu/glue:latest  #emby/embyserver:latest
 
 jobs:
