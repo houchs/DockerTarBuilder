@@ -6,7 +6,7 @@ on:
         description: 'xhofe/alist:latest' #请填写docker镜像名称 多个用英文逗号分开
         required: true
         default: 'xhofe/alist:latest'  # 设置默认的 Docker 镜像列表
-        #xiaoyaliu/glue:latest  #emby/embyserver:latest
+        #xiaoyaliu/glue:latest  #emby/embyserver:latest #xhofe/alist:latest
 
 jobs:
   pull_and_package:
