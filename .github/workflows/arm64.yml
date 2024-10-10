@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'xiaoyaliu/alist:latest'
+        description: 'mzz2017/v2raya:latest'
+        #xiaoyaliu/alist:latest #mzz2017/v2raya
         required: true
-        default: 'xiaoyaliu/alist:latest'  # 设置默认的 Docker 镜像列表
+        default: 'mzz2017/v2raya:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
