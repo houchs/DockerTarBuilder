@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'xiaoyaliu/alist:latest' #请填写docker镜像名称 多个用英文逗号分开
+        description: 'nginx:latest' #请填写docker镜像名称 多个用英文逗号分开
         required: true
-        default: 'xiaoyaliu/alist:latest'  # 设置默认的 Docker 镜像列表
+        default: 'nginx:latest'  # 设置默认的 Docker 镜像列表
         #xiaoyaliu/glue:latest  #emby/embyserver:latest #xhofe/alist:latest #xiaoyaliu/alist:latest
-        #mzz2017/v2raya:latest
+        #mzz2017/v2raya:latest  #nginx:latest
 
 jobs:
   pull_and_package:
