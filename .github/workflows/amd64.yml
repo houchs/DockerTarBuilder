@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'ghcr.io/sagernet/sing-box:latest' #请填写docker镜像名称 多个用英文逗号分开
+        description: 'xiaoyaliu/alist:latest' #请填写docker镜像名称 多个用英文逗号分开
         required: true
-        default: 'ghcr.io/sagernet/sing-box:latest'  # 设置默认的 Docker 镜像列表
+        default: 'xiaoyaliu/alist:latest'  # 设置默认的 Docker 镜像列表
         #xiaoyaliu/glue:latest  #emby/embyserver:latest #xhofe/alist:latest #xiaoyaliu/alist:latest
         #mzz2017/v2raya:latest  #nginx:latest #jc21/nginx-proxy-manager:latest #vaultwarden/server:latest
         #ghcr.io/sagernet/sing-box:latest
