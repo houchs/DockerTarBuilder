@@ -3,13 +3,13 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'appflowyinc/appflowy_cloud:latest' #请填写docker镜像名称 多个用英文逗号分开
+        description: 'nginx' #请填写docker镜像名称 多个用英文逗号分开
         required: true
-        default: 'appflowyinc/appflowy_cloud:latest'  # 设置默认的 Docker 镜像列表
+        default: 'nginx'  # 设置默认的 Docker 镜像列表
         #xiaoyaliu/glue:latest  #emby/embyserver:latest #xhofe/alist:latest #xiaoyaliu/alist:latest
         #mzz2017/v2raya:latest  #nginx:latest #jc21/nginx-proxy-manager:latest #vaultwarden/server:latest
         #ghcr.io/sagernet/sing-box:latest #portainer/portainer-ce:latest #6053537/portainer-ce:lates
-        #halohub/halo:2 #appflowy/appflowy #appflowyinc/appflowy_cloud:latest
+        #halohub/halo:2 #appflowy/appflowy #appflowyinc/appflowy_cloud:latest #nginx
 jobs:
   pull_and_package:
     runs-on: ubuntu-latest
