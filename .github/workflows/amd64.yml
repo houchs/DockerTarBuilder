@@ -3,13 +3,14 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'minio/minio' #请填写docker镜像名称 多个用英文逗号分开
+        description: 'pgvector/pgvector:pg16' #请填写docker镜像名称 多个用英文逗号分开
         required: true
-        default: 'minio/minio'  # 设置默认的 Docker 镜像列表
+        default: 'pgvector/pgvector:pg16'  # 设置默认的 Docker 镜像列表
         #xiaoyaliu/glue:latest  #emby/embyserver:latest #xhofe/alist:latest #xiaoyaliu/alist:latest
         #mzz2017/v2raya:latest  #nginx:latest #jc21/nginx-proxy-manager:latest #vaultwarden/server:latest
         #ghcr.io/sagernet/sing-box:latest #portainer/portainer-ce:latest #6053537/portainer-ce:lates
         #halohub/halo:2 #appflowy/appflowy #appflowyinc/appflowy_cloud:latest #nginx #minio/minio
+        #pgvector/pgvector:pg16
 jobs:
   pull_and_package:
     runs-on: ubuntu-latest
