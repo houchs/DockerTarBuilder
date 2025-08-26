@@ -3,10 +3,37 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'messense/aliyundrive-webdav' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
         default: 'alpine:latest,busybox:stable-glibc'  # 设置默认的 Docker 镜像列表
-
+        #6053537/portainer-ce:lates
+        #appflowy/appflowy
+        #appflowyinc/admin_frontend:latest
+        #appflowyinc/appflowy_web:latest
+        #appflowyinc/appflowy_worker:latest
+        #appflowyinc/appflowy_cloud:latest
+        #appflowyinc/gotrue:latest
+        #dpage/pgadmin4
+        #emby/embyserver:latest
+        #fireflyiii/core:latest
+        #ghcr.io/sagernet/sing-box:latest
+        #halohub/halo:2
+        #jc21/nginx-proxy-manager:latest
+        #joplin/server:latest
+        #lscr.io/linuxserver/swag:latest
+        #messense/aliyundrive-webdav
+        #minio/minio
+        #mzz2017/v2raya:latest
+        #nginx
+        #nginx:latest
+        #pgvector/pgvector:pg16
+        #portainer/portainer-ce:latest
+        #redis
+        #vaultwarden/server:latest
+        #xhofe/alist:latest
+        #xiaoyaliu/alist:latest
+        #xiaoyaliu/glue:latest
+        
 jobs:
   pull_and_package:
     runs-on: ubuntu-22.04
