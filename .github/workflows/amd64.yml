@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'analogic/poste.io' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'xiaoyaliu/alist:latest' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'analogic/poste.io'  # 设置默认的 Docker 镜像列表
+        default: 'xiaoyaliu/alist:latest'  # 设置默认的 Docker 镜像列表
         #6053537/portainer-ce:lates
         #analogic/poste.io
         #appflowy/appflowy
