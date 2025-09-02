@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'ghcr.io/uncleluogithub/cf-keepalive:latest' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'jwy8645/sing-box-subscribe:amd64' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'ghcr.io/uncleluogithub/cf-keepalive:latest'  # 设置默认的 Docker 镜像列表
+        default: 'jwy8645/sing-box-subscribe:amd64'  # 设置默认的 Docker 镜像列表
         #6053537/portainer-ce:lates
         #analogic/poste.io
         #appflowy/appflowy
@@ -35,6 +35,7 @@ on:
         #xiaoyaliu/alist:latest
         #xiaoyaliu/glue:latest
         #ghcr.io/uncleluogithub/cf-keepalive:latest
+        #jwy8645/sing-box-subscribe:amd64
         
 jobs:
   pull_and_package:
