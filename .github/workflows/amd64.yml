@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'jwy8645/sing-box-subscribe:amd64' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: '6053537/portainer-ce:latest' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'jwy8645/sing-box-subscribe:amd64'  # 设置默认的 Docker 镜像列表
+        default: '6053537/portainer-ce:latest'  # 设置默认的 Docker 镜像列表
         #6053537/portainer-ce:lates
         #analogic/poste.io
         #appflowy/appflowy
