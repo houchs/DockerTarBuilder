@@ -4,9 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'jockerdragon/mobaxterm-crack:latest'
+        description: 'ghcr.io/sagernet/sing-box'
         required: true
-        default: 'jockerdragon/mobaxterm-crack:latest'
+        default: 'ghcr.io/sagernet/sing-box'
+        #ghcr.io/sagernet/sing-box
+        #jockerdragon/mobaxterm-crack:latest
 
 jobs:
   pull_and_package:
