@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'jockerdragon/mobaxterm-crack:latest' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'ghcr.io/sagernet/sing-box' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'jockerdragon/mobaxterm-crack:latest  # 设置默认的 Docker 镜像列表
+        default: 'ghcr.io/sagernet/sing-box'  # 设置默认的 Docker 镜像列表
         #6053537/portainer-ce:lates
         #analogic/poste.io
         #appflowy/appflowy
@@ -36,7 +36,7 @@ on:
         #xiaoyaliu/glue:latest
         #ghcr.io/uncleluogithub/cf-keepalive:latest
         #jwy8645/sing-box-subscribe:amd64
-        
+        #jockerdragon/mobaxterm-crack:latest
 jobs:
   pull_and_package:
     runs-on: ubuntu-22.04
