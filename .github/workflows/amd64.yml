@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 6053537/portainer-ce:lates' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: '6053537/portainer-ce:lates' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
         default: '6053537/portainer-ce:lates'  # 设置默认的 Docker 镜像列表
         #metacubex/mihomo:latest
