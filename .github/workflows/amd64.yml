@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'jericx/syncclipboard-server:latest' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'immortalwrt/imagebuilder:x86-64-openwrt-24.10.5' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'jericx/syncclipboard-server:latest'  # 设置默认的 Docker 镜像列表
+        default: 'immortalwrt/imagebuilder:x86-64-openwrt-24.10.5'  # 设置默认的 Docker 镜像列表
         #metacubex/mihomo:latest
         #6053537/portainer-ce:lates
         #analogic/poste.io
@@ -20,7 +20,7 @@ on:
         #fireflyiii/core:latest
         #ghcr.io/sagernet/sing-box:latest
         #halohub/halo:2
-        #immortalwrt/imagebuilder:x86-64-openwrt-24.10.4
+        #immortalwrt/imagebuilder:x86-64-openwrt-24.10.5
         #jc21/nginx-proxy-manager:latest
         #jericx/syncclipboard-server:latest
         #joplin/server:latest
