@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'ghcr.io/szemeng76/lunatv:5.9.1' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'ghcr.io/fish2018/pansou-web:latest'  # 设置默认的 Docker 镜像列表
+        default: 'ghcr.io/szemeng76/lunatv:5.9.1'  # 设置默认的 Docker 镜像列表
         #metacubex/mihomo:latest
         #6053537/portainer-ce:lates
         #analogic/poste.io
