@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'ghcr.io/fish2018/pansou-web:latest' # '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'ghcr.io/szemeng76/lunatv:5.9.1' # '请填写docker镜像名称 多个用英文逗号分开'
         required: true
         default: 'ghcr.io/fish2018/pansou-web:latest'  # 设置默认的 Docker 镜像列表
         #metacubex/mihomo:latest
@@ -20,6 +20,7 @@ on:
         #fireflyiii/core:latest
         #ghcr.io/fish2018/pansou-web:latest
         #ghcr.io/sagernet/sing-box:latest
+        #ghcr.io/szemeng76/lunatv:5.9.1
         #halohub/halo:2
         #immortalwrt/imagebuilder:x86-64-openwrt-24.10.5
         #jc21/nginx-proxy-manager:latest
